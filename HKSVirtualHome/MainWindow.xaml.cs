@@ -24,5 +24,6 @@ namespace HKSVirtualHome
         {
             InitializeComponent();
         }
+
     }
 }
