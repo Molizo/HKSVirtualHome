@@ -33,7 +33,7 @@ namespace HKSVirtualHome
 
             mqttClient.Disconnected += async (s, e) =>
             {
-                Console.WriteLine("[System] Disconnected from Adafruit IO");
+                Console.WriteLine("[System] Disconnected from server");
                 await Task.Delay(TimeSpan.FromSeconds(5));
 
                 try
